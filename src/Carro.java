@@ -13,6 +13,7 @@ public class Carro {
 
     // Exemplo da criação de objeto a partir da classe declarada
     public static void exercicio_1(){
+        System.out.println("\nExercicio 1:");
         Carro carro1 = new Carro("HB20", "Hyundai");
         Carro carro2 = new Carro("Virtus", "Volkswagen");
         System.out.println(carro1.buzinar());

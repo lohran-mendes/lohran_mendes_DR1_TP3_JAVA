@@ -3,7 +3,9 @@ public class Produto {
     public double preco;
     public int quantidadeEmEstoque;
 
-    public Produto() {}
+    public Produto() {
+    }
+
     public Produto(String nome, double preco, int quantidadeEmEstoque) {
         this.nome = nome;
         this.preco = preco;
@@ -23,6 +25,7 @@ public class Produto {
     }
 
     public static void exercicio_4() {
+        System.out.println("\nExercicio 4:");
         Produto pastaDeDente = new Produto();
         pastaDeDente.nome = "Pasta de Dente";
         pastaDeDente.preco = 3.50;
@@ -33,6 +36,7 @@ public class Produto {
     }
 
     public static void exercicio_5() {
+        System.out.println("\nExercicio 5:");
         Produto kitkat = new Produto();
         kitkat.setNome("KitKat");
         kitkat.setPreco(4);
@@ -43,6 +47,7 @@ public class Produto {
     }
 
     public static void exercicio_6() {
+        System.out.println("\nExercicio 6:");
         Produto sabonete = new Produto("sabonete", 2.50, 50);
         System.out.println(sabonete.exibirInformacoes());
     }
